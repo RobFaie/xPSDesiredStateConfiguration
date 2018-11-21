@@ -714,6 +714,9 @@ Publishes a 'FileInfo' object(s) to the pullserver configuration repository. It 
 
 ### Unreleased
 
+* Changes to xWindowsFeature
+  * Fixed an issue where Test-TargetResource fails when feature is not installed and Ensure is set to Absent ([issue #452](https://github.com/PowerShell/xPSDesiredStateConfiguration/issues/452))
+
 ### 8.5.0.0
 * Changes to xRegistry
   * Fixed an issue that fails to remove reg key when the `Key` is specified as common registry path. ([issue #444](https://github.com/PowerShell/xPSDesiredStateConfiguration/issues/444))
